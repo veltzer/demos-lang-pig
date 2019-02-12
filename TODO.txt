@@ -1,0 +1,5 @@
+- add exmples of the four types of joins:
+	inner
+	outer left
+	outer right
+	outer full
