@@ -1,4 +1,4 @@
-data = LOAD '/etc/passwd' USING PigStorage(':') AS (user,password,uid,pid,info,homedir,shell);
+data = LOAD '../data/passwd' USING PigStorage(':') AS (user,password,uid,pid,info,homedir,shell);
 only_shells = FOREACH data GENERATE shell;
 grouped = GROUP only_shells BY shell;
 unique_shells = FOREACH grouped GENERATE $0;
