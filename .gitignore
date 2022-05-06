@@ -1,2 +1,3 @@
 pig_*.log
+/.pydmt/
 *.stamp
