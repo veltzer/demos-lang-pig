@@ -1,1 +1,1 @@
-# demos-pig
+# demos-lang-pig
